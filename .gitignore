@@ -1,0 +1,10 @@
+credentials/*.json
+ROMS/*.gba
+ROMS/*.sav
+ROMS/Savs/*.sav
+ROMS/*.toml
+!ROMS/_head.gba
+*__pycache__
+.vscode
+test*
+data/*.tsv

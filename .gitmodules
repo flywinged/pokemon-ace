@@ -1,0 +1,15 @@
+[submodule "Complete-Fire-Red-Upgrade"]
+	path = Complete-Fire-Red-Upgrade
+	url = git@github.com:flywinged/Complete-Fire-Red-Upgrade.git
+[submodule "Dynamic-Pokemon-Expansion"]
+	path = Dynamic-Pokemon-Expansion
+	url = git@github.com:flywinged/Dynamic-Pokemon-Expansion.git
+[submodule "pokefirered"]
+	path = pokefirered
+	url = git@github.com:flywinged/pokefirered.git
+[submodule "pokesprite"]
+	path = pokesprite
+	url = git@github.com:msikma/pokesprite.git
+[submodule "pokemon-ace-calc"]
+	path = pokemon-ace-calc
+	url = git@github.com:flywinged/pokemon-calamity-calc.git

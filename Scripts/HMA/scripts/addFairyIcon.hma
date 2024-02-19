@@ -1,0 +1,22 @@
+# -------------------------- Icon Edits --------------------------
+# (You may want to delete this part and do icons manually.)
+
+# Add the fairy icon to the type icon sprite. (FR/LG/Emerald)
+@!game(BPRE0_BPRE1_BPGE0_BPGE1) @graphics.pokemon.type.icons+100
+@!game(BPEE0)                   @graphics.pokemon.bag.type.icon+100
+@!game(BPRE0_BPRE1_BPGE0_BPGE1_BPEE0)
+C0 CC CC CC CC CC CC CC CC CC FF FF CC CC EF EE CC CC EF CC CC CC FF EF CC CC EF EE CC CC EF CC
+CC CC CC CC CC CC CC CC CE FF CE FF FE EE EF FC FC CE EF FC FC FF EF FC FC EE EF FC FC CE EF FC
+CC CC CC CC CC CC CC CC EF FF EF FC EE EF FE FE CE EF FC FE CE FF EF FC CE EF FC EE CE EF FC CE
+CC CC CC 0C CC CC CC CC FE CE CC CC FE CE CC CC FE CE CC CC FE CE CC CC EF CE CC CC EF CC CC CC 
+@!game(BPRE0_BPRE1_BPGE0_BPGE1) @graphics.pokemon.type.icons+300
+@!game(BPEE0)                   @graphics.pokemon.bag.type.icon+300
+@!game(BPRE0_BPRE1_BPGE0_BPGE1_BPEE0)
+CC CC EF CC CC CC EE CC CC CC CC CC C0 CC CC CC 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+FC CE EF FF EC CE EE EE CC CC CC CC CC CC CC CC 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+EF EF FC CE EE EE EC CE CC CC CC CC CC CC CC CC 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+EF CC CC CC EE CC CC CC CC CC CC CC CC CC CC 0C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+# Edit the type map so the game knows where to find the Fairy Icon in the type icon sprite
+@!game(BPRE0_BPRE1_BPGE0_BPGE1) @graphics.pokemon.type.map/Fairy
+@!game(BPEE0) @graphics.pokemon.bag.type.map/Fairy
+@!game(BPRE0_BPRE1_BPGE0_BPGE1_BPEE0) 32 12 (2 0)
